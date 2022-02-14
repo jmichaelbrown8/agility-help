@@ -1,0 +1,20 @@
+[
+    {
+        "user_id": 2,
+        "article_id": 1,
+        "title": "Great!",
+        "content": "I love pirates!!!"
+    },
+    {
+        "user_id": 1,
+        "article_id": 1,
+        "title": "What's a pirates favorite letter?",
+        "content": "Rrrrrrrrrr!!!"
+    },
+    {
+        "user_id": 1,
+        "article_id": 2,
+        "title": "Tasty!",
+        "content": "I love cupcakes!!!"
+    }
+]
