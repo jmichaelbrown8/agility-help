@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram id="X4t8laDDgqchACKT4Ocz" name="Page-1">
+        <mxGraphModel dx="814" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="80" width="260" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;h1&gt;Agility Help&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="80" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h3&gt;How to get your team to stand up&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="155" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="J. Michael Brown * Feb 14, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="190" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h3&gt;What's the purpose of points?&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="225" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Marty McFly * Mar 11, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="260" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="22" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="220" as="sourcePoint"/>
+                        <mxPoint x="310" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&lt;h3&gt;A foolproof team of teams framework&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="295" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Dr. Emmett Brown * Mar 11, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="330" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="290" as="sourcePoint"/>
+                        <mxPoint x="310" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;p&gt;Home&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Log in&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Dashboard&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="130" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="260" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;h1&gt;Agility Help&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;h3&gt;How to get your team to stand up&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="155" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="J. Michael Brown * Feb 14, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="190" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;h3&gt;What's the purpose of points?&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="225" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Marty McFly * Mar 11, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="260" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="36" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="220" as="sourcePoint"/>
+                        <mxPoint x="620" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&lt;h3&gt;A foolproof team of teams framework&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="295" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Dr. Emmett Brown * Mar 11, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="330" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="39" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="290" as="sourcePoint"/>
+                        <mxPoint x="620" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;p&gt;Home&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Log out&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Dashboard&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="130" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="/" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="50" width="20" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

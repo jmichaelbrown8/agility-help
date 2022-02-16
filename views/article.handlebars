@@ -1,0 +1,12 @@
+<h1>{{article.title}}</h1>
+<h6>{{article.user.username}} * {{format_date article.createdAt}}</h6>
+<hr />
+<p>{{{article.content}}}</p>
+<hr />
+<div class="flex-row justify-space-between">
+  <button>👏 {{article.cheers}}</button>
+  <button>💬 {{article.comments.length}}</button>
+</div>
+{{#each article.comments as |comment|}}
+    {{>comment}}
+{{/each}}

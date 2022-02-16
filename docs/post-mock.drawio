@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="X4t8laDDgqchACKT4Ocz" name="Page-1">
+        <mxGraphModel dx="814" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="80" width="260" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;h1&gt;Agility Help&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="80" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h3&gt;How to get your team to stand up&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="155" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="J. Michael Brown * Feb 14, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="190" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;p&gt;The real reason teams don't stand up, is&amp;nbsp;&lt;/p&gt;&lt;p&gt;that they don't understand the purpose.&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you explain the purpose, they will see&lt;/p&gt;&lt;p&gt;the value.&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="230" width="230" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="22" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="220" as="sourcePoint"/>
+                        <mxPoint x="310" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;p&gt;Home&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Log in&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Dashboard&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="130" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="42 Cheers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="179.89" y="400" as="sourcePoint"/>
+                        <mxPoint x="379.9999999999999" y="400.88" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="J. Michael Brown&lt;br&gt;Feb 14, 2022" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="415" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="This post seems so obvious! Why didn't I&lt;br&gt;think of that?" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="460" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="1 Cheer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="490" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="174.95" y="530" as="sourcePoint"/>
+                        <mxPoint x="375.06" y="530.88" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="Comment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="80" width="260" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;h1&gt;Agility Help&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="80" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;h3&gt;How to get your team to stand up&lt;/h3&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="155" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="J. Michael Brown * Feb 14, 2022" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="190" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;p&gt;The real reason teams don't stand up, is&amp;nbsp;&lt;/p&gt;&lt;p&gt;that they don't understand the purpose.&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you explain the purpose, they will see&lt;/p&gt;&lt;p&gt;the value.&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="230" width="230" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=none;html=1;entryX=0.957;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="220" as="sourcePoint"/>
+                        <mxPoint x="630" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="&lt;p&gt;Home&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Log out&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;|&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;Dashboard&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="130" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="42 Cheers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Comment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Thanks for this." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#CED4DA;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#7D868C;align=left;spacing=15;spacingLeft=40;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="400" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Post" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="542.25" y="480" width="105.5" height="16.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="/article/:id" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="50" width="70" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

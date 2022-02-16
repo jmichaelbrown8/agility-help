@@ -34,6 +34,23 @@ Article.init({
         defaultValue: 0
     },
 }, {
+    hooks: {
+        beforeBulkCreate: (articlesData) => {
+            articlesData = articlesData.map(articleData => {
+                articleData.content = articleData.content.replaceAll('\n', '<br />');
+                return articleData;
+            });
+            return articlesData;
+        },
+        beforeCreate: (articleData) => {
+            articleData.content = articleData.content.replaceAll('\n', '<br />');
+            return articleData;
+        },
+        beforeUpdate: (articleData) => {
+            articleData.content = articleData.content.replaceAll('\n', '<br />');
+            return articleData;
+        },
+    },
     sequelize,
     timestamps: true,
     freezeTableName: true,

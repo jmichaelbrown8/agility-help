@@ -1,28 +1,51 @@
 Login / Sign up / Logout
 
     Public endpoints:
+
+Homepage:
+
     Blog posts and read comments
-    "Clap" for a post
-    "Clap" for a comment
+    GET /api/posts
+    GET /api/post/:id (includes all comments)
+
+    "Cheer" for a post
+    POST /api/post/:id/cheer
+
+    "Cheer" for a comment
+    POST /api/comment/:id/cheer
 
 Authenticated endpoints:
 
+Dashboard:
+
+    GET /api/posts?user=user_id
+
     Create new blog post
+    POST /api/post
+
     edit own post
+    PUT /api/post/:id
+
     delete own post
+    DELETE /api/post/:id
 
     write new comment
-    edit own comment
-    delete own comment
+    POST /api/comment
 
-Authorized as moderator:
+    edit own comment
+    PUT /api/comment/:id
+
+    delete own comment
+    DELETE /api/comment/:id
+
+<!-- Authorized as moderator:
 
     edit any post
     delete any post
 
     edit any comment
     delete any comment
-    delete/edit any user
+    delete/edit any user -->
 
 Homepage
 
@@ -41,7 +64,7 @@ Log in
 
 Blog post
 
-    /blog/:id
+    /post/:id
     (displays blog post title, contents, creator's username, date, comments and if signed in, ability to write a comment or edit own comments)
 
 Dashboard
@@ -51,5 +74,6 @@ Dashboard
 
 Create post
 
-    /create
+    /edit
+    /edit/:id
     (title and contents fields, plus a publish button)
