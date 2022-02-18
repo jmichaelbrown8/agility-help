@@ -22,6 +22,7 @@ router.get('/', async (req, res) => {
         res.render('homepage', {
             articles,
             logged_in: req.session.logged_in,
+            username: req.session.username,
         });
     } catch (err) {
         console.log(err);
@@ -56,6 +57,7 @@ router.get('/article/:id', async (req, res) => {
         res.render('article', {
             article,
             logged_in: req.session.logged_in,
+            username: req.session.username,
         });
     } catch (err) {
         console.log(err);

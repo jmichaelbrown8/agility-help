@@ -18,6 +18,11 @@
       <nav class="flex-row justify-space-around">
         <!-- Home -->
         <a href="/">home</a>
+        |
+
+        <!-- Dashboard -->
+        <a href="/dashboard">dashboard</a>
+        |
 
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
@@ -26,8 +31,6 @@
           <a href="/login">login</a>
         {{/if}}
 
-        <!-- Dashboard -->
-        <a href="/dashboard">dashboard</a>
       </nav>
       <main class="container container-fluid mt-5">
         <!-- Render the sub layout -->
