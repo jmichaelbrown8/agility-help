@@ -6,6 +6,12 @@
     <title>Agility Help</title>
     <link rel="stylesheet" href="/css/jass.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
   </head>
 
   <body>
@@ -18,15 +24,15 @@
       <nav class="flex-row justify-space-around">
         <!-- Home -->
         <a href="/">home</a>
-        |
+        <span class="mui--text-dark-hint">|</span>
 
         <!-- Dashboard -->
         <a href="/dashboard">dashboard</a>
-        |
+        <span class="mui--text-dark-hint">|</span>
 
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-          <button class="no-button" id="logout">logout</button>
+          <a href="" id="logout">logout</a>
         {{else}}
           <a href="/login">login</a>
         {{/if}}
