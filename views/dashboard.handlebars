@@ -1,0 +1,15 @@
+<h2>{{username}}'s articles</h2>
+<form action="/create">
+  <button type="submit">New article</button>
+</form>
+{{#each articles as |article|}}
+  <div class="flex-column justify-space-between">
+    <h3>{{article.title}}</h3>
+    <div>Created: {{format_date article.createdAt}}</div>
+    <div>Updated: {{format_date article.updatedAt}}</div>
+    <form action="/edit/{{article.id}}">
+      <button type="submit">Edit</button>
+    </form>
+
+  </div>
+{{/each}}

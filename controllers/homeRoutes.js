@@ -4,6 +4,7 @@ const {
     User,
     Comment
 } = require('../models');
+const withAuth = require('../utils/auth');
 
 // GET all articles for homepage
 router.get('/', async (req, res) => {
@@ -71,6 +72,22 @@ router.get('/login', (req, res) => {
 
 router.get('/signup', (req, res) => {
     res.render('signup');
-})
+});
+
+router.get('/dashboard', withAuth, async (req, res) => {
+
+    const articlesData = await Article.findAll({
+        where: {
+            user_id: req.session.user_id
+        }
+    });
+    const articles = articlesData.map(article => article.toJSON());
+    res.render('dashboard', {
+        articles,
+        user_id: req.session.user_id,
+        username: req.session.username,
+        logged_in: req.session.logged_in
+    });
+});
 
 module.exports = router;
