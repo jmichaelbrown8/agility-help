@@ -1,15 +1,16 @@
 <h1>{{article.title}}</h1>
 <h6>{{article.user.username}} * {{format_date article.createdAt}}</h6>
-<hr />
+<div class="mui-divider"></div>
 <p>{{{article.content}}}</p>
 <div class="mui-divider"></div>
 <div class="flex-row justify-space-between">
   <button class="mui-btn">👏 {{article.cheers}}</button>
   <button class="mui-btn">💬 {{article.comments.length}}</button>
 </div>
-<form class="mui-form--inline row align-end">
+<form id="comment-form" class="mui-form--inline row align-end">
+  <input type="hidden" id="article_id" value="{{article.id}}">
   <div class="mui-textfield col-auto">
-    <textarea type="text" id="content" placeholder="Comment"></textarea>
+    <textarea type="text" id="comment" placeholder="Comment"></textarea>
   </div>
   <button class="mui-btn mui-btn--raised col-1">Post</button>
 </form>
@@ -17,3 +18,7 @@
 {{#each article.comments as |comment|}}
     {{>comment}}
 {{/each}}
+
+{{#if logged_in}}
+<script src="/js/comment.js"></script>
+{{/if}}

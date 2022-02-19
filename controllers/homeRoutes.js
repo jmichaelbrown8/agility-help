@@ -15,7 +15,10 @@ router.get('/', async (req, res) => {
                 attributes: [
                     'username'
                 ]
-            }]
+            }],
+            order: [
+                ['createdAt', 'DESC']
+            ],
         });
 
         const articles = articleData.map(article => article.toJSON());
@@ -49,9 +52,12 @@ router.get('/article/:id', async (req, res) => {
                     attributes: [
                         'username',
                         'id'
-                    ]
-                }
-            }]
+                    ],
+                },
+            }],
+            order: [
+                [Comment, 'createdAt', 'DESC']
+            ]
         });
 
         const article = articleData.toJSON();
@@ -86,7 +92,10 @@ router.get('/dashboard', withAuth, async (req, res) => {
     const articlesData = await Article.findAll({
         where: {
             user_id: req.session.user_id
-        }
+        },
+        order: [
+            ['createdAt', 'DESC']
+        ],
     });
     const articles = articlesData.map(article => article.toJSON());
     res.render('dashboard', {
