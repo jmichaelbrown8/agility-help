@@ -19,7 +19,7 @@ const loginFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
-      alert('Failed to log in.');
+      document.location.search = 'toast=Failed to log in.';
     }
   }
 };

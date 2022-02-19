@@ -7,6 +7,13 @@
   <button class="mui-btn">👏 {{article.cheers}}</button>
   <button class="mui-btn">💬 {{article.comments.length}}</button>
 </div>
+<form class="mui-form--inline row align-end">
+  <div class="mui-textfield col-auto">
+    <textarea type="text" id="content" placeholder="Comment"></textarea>
+  </div>
+  <button class="mui-btn mui-btn--raised col-1">Post</button>
+</form>
+<div class="mui-divider"></div>
 {{#each article.comments as |comment|}}
     {{>comment}}
 {{/each}}

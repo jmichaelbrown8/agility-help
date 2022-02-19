@@ -24,6 +24,7 @@ router.get('/', async (req, res) => {
             articles,
             logged_in: req.session.logged_in,
             username: req.session.username,
+            toast: req.query.toast,
         });
     } catch (err) {
         console.log(err);
@@ -59,6 +60,7 @@ router.get('/article/:id', async (req, res) => {
             article,
             logged_in: req.session.logged_in,
             username: req.session.username,
+            toast: req.query.toast,
         });
     } catch (err) {
         console.log(err);
@@ -67,11 +69,15 @@ router.get('/article/:id', async (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-    res.render('login');
+    res.render('login', {
+        toast: req.query.toast,
+    });
 });
 
 router.get('/signup', (req, res) => {
-    res.render('signup');
+    res.render('signup', {
+        toast: req.query.toast,
+    });
 });
 
 // dashboard page with logged in user's articles
@@ -87,7 +93,8 @@ router.get('/dashboard', withAuth, async (req, res) => {
         articles,
         user_id: req.session.user_id,
         username: req.session.username,
-        logged_in: req.session.logged_in
+        logged_in: req.session.logged_in,
+        toast: req.query.toast,
     });
 });
 
@@ -97,7 +104,8 @@ router.get('/create', withAuth, (req, res) => {
     res.render('create', {
         user_id: req.session.user_id,
         username: req.session.username,
-        logged_in: req.session.logged_in
+        logged_in: req.session.logged_in,
+        toast: req.query.toast,
     });
 });
 
@@ -106,11 +114,13 @@ router.get('/edit/:id', withAuth, async (req, res) => {
 
     const articleData = await Article.findByPk(req.params.id);
     const article = articleData.toJSON();
+    article.content = article.content.replaceAll('<br />', '\n');
 
     // check if this user was the author first
     if (req.session.user_id !== article.user_id) {
         res.render('unauthorized', {
-            logged_in: req.session.logged_in
+            logged_in: req.session.logged_in,
+            toast: req.query.toast,
         });
     }
 

@@ -1,0 +1,7 @@
+.mui-appbar {
+  background-color: var(--light);
+}
+
+.mui-panel {
+  border-top: 0;
+}

@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agility Help</title>
     <link rel="stylesheet" href="/css/jass.css" />
-    <link rel="stylesheet" href="/css/style.css" />
     <link
       href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="/css/style.css" />
     <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
   </head>
 
   <body>
     <div class="flex-column justify-space-around">
-      <header class="align-center p-2">
+      <header class="align-center p-2 mui-appbar">
         <h1 class="text-center">
           <a href="/">Agility Help</a>
         </h1>
       </header>
-      <nav class="flex-row justify-space-around">
+      <nav class="flex-row justify-space-around mui-panel">
         <!-- Home -->
         <a href="/">home</a>
         <span class="mui--text-dark-hint">|</span>
@@ -47,6 +47,11 @@
     <!-- Render script for logged in users only -->
     {{#if logged_in}}
       <script src="/js/logout.js"></script>
+    {{/if}}
+
+    <!-- Render toast only if there is a toast message -->
+    {{#if toast}}
+      {{>toast}}
     {{/if}}
   </body>
 
