@@ -4,9 +4,11 @@
 <p>{{{article.content}}}</p>
 <div class="mui-divider"></div>
 <div class="flex-row justify-space-between">
-  <button class="mui-btn">👏 {{article.cheers}}</button>
-  <button class="mui-btn">💬 {{article.comments.length}}</button>
+  {{!-- <button class="mui-btn">👏 {{article.cheers}}</button> --}}
+  {{!-- <button class="mui-btn">💬 {{article.comments.length}}</button> --}}
 </div>
+
+{{#if logged_in}}
 <form id="comment-form" class="mui-form--inline row align-end">
   <input type="hidden" id="article_id" value="{{article.id}}">
   <div class="mui-textfield col-auto">
@@ -14,6 +16,10 @@
   </div>
   <button class="mui-btn mui-btn--raised col-1">Post</button>
 </form>
+{{else}}
+<a href="/login">Log in to comment.</a>
+{{/if}}
+
 <div class="mui-divider"></div>
 {{#each article.comments as |comment|}}
     {{>comment}}
