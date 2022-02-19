@@ -1,4 +1,4 @@
-<form action="" class="flex-column justify-space-between">
+<form class="form edit-form flex-column justify-space-between">
   <label for="title">Title</label>
   <input type="text" id="title" name="title" value="{{article.title}}" />
   <label for="content">Content</label>
@@ -14,8 +14,9 @@
       type="submit"
     >Update</button>
     <button
+      id="delete-button"
       class="mui-btn mui-btn--raised mui-btn--danger"
-      type="submit"
+      type="button"
     >Delete</button>
   </div>
 </form>

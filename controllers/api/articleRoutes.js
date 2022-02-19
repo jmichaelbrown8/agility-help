@@ -33,4 +33,36 @@ router.post('/', async (req, res) => {
     }
 });
 
+router.put('/edit/:id', async (req, res) => {
+    try {
+        const updateData = await Article.update(req.body, {
+            where: {
+                id: req.params.id
+            }
+        });
+
+        const articleData = await Article.findByPk(req.params.id);
+        const article = articleData.toJSON();
+
+        res.status(200).json({
+            message: `"${article.title}" updated by ${req.session.username} at ${article.updatedAt}`
+        });
+    } catch (err) {
+        let message = 'Something went wrong.';
+
+        if (!err.errors) {
+            res.status(400).json({
+                message,
+                // ...err
+            });
+            return;
+        }
+
+        res.status(400).json({
+            message,
+            // ...err
+        });
+    }
+});
+
 module.exports = router;
