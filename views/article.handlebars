@@ -1,7 +1,7 @@
 <h1>{{article.title}}</h1>
 <h6>{{article.user.username}} * {{format_date article.createdAt}}</h6>
 <div class="mui-divider"></div>
-<p>{{{article.content}}}</p>
+<p>{{article.content}}</p>
 <div class="mui-divider"></div>
 <div class="flex-row justify-space-between">
   {{!-- <button class="mui-btn">👏 {{article.cheers}}</button> --}}
@@ -9,12 +9,12 @@
 </div>
 
 {{#if logged_in}}
-<form id="comment-form" class="mui-form--inline row align-end">
+<form id="comment-form">
   <input type="hidden" id="article_id" value="{{article.id}}">
-  <div class="mui-textfield col-auto">
+  <div class="mui-textfield">
     <textarea type="text" id="comment" placeholder="Comment"></textarea>
   </div>
-  <button class="mui-btn mui-btn--raised col-1">Post</button>
+  <button class="mui-btn mui-btn--raised">Post</button>
 </form>
 {{else}}
 <a href="/login">Log in to comment.</a>
