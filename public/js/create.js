@@ -21,6 +21,7 @@ const createFormHandler = async (event) => {
             document.location.replace('/dashboard');
         } else {
             localStorage.setItem('toast', 'Failed to create article.');
+            toastIt();
         }
     }
 };

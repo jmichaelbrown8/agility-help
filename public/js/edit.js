@@ -22,6 +22,7 @@ const editFormHandler = async (event) => {
             document.location.replace('/dashboard');
         } else {
             localStorage.setItem('toast', 'Failed to update article.');
+            toastIt();
         }
     }
 };
@@ -44,6 +45,7 @@ const deleteFormHandler = async (event) => {
             document.location.replace('/dashboard');
         } else {
             localStorage.setItem('toast', 'Failed to delete article.');
+            toastIt();
         }
     }
 };

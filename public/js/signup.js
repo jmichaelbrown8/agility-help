@@ -21,6 +21,7 @@ const signupFormHandler = async (event) => {
       document.location.replace('/dashboard');
     } else {
       localStorage.setItem('toast', 'Failed to sign up.');
+      toastIt();
     }
   }
 };

@@ -11,6 +11,7 @@ const logout = async () => {
     document.location.replace('/');
   } else {
     localStorage.setItem('toast', 'Failed to log out.');
+    toastIt();
   }
 };
 

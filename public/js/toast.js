@@ -17,6 +17,3 @@ const toastIt = () => {
 };
 
 toastIt();
-
-// Start a 1 second loop to check for a toast localStorage item
-setInterval(toastIt, 1000);
