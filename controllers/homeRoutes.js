@@ -27,7 +27,6 @@ router.get('/', async (req, res) => {
             articles,
             logged_in: req.session.logged_in,
             username: req.session.username,
-            toast: req.query.toast,
         });
     } catch (err) {
         console.log(err);
@@ -66,7 +65,6 @@ router.get('/article/:id', async (req, res) => {
             article,
             logged_in: req.session.logged_in,
             username: req.session.username,
-            toast: req.query.toast,
         });
     } catch (err) {
         console.log(err);
@@ -75,15 +73,11 @@ router.get('/article/:id', async (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-    res.render('login', {
-        toast: req.query.toast,
-    });
+    res.render('login');
 });
 
 router.get('/signup', (req, res) => {
-    res.render('signup', {
-        toast: req.query.toast,
-    });
+    res.render('signup');
 });
 
 // dashboard page with logged in user's articles
@@ -103,7 +97,6 @@ router.get('/dashboard', withAuth, async (req, res) => {
         user_id: req.session.user_id,
         username: req.session.username,
         logged_in: req.session.logged_in,
-        toast: req.query.toast,
     });
 });
 
@@ -114,7 +107,6 @@ router.get('/create', withAuth, (req, res) => {
         user_id: req.session.user_id,
         username: req.session.username,
         logged_in: req.session.logged_in,
-        toast: req.query.toast,
     });
 });
 
@@ -129,7 +121,6 @@ router.get('/edit/:id', withAuth, async (req, res) => {
     if (req.session.user_id !== article.user_id) {
         res.render('unauthorized', {
             logged_in: req.session.logged_in,
-            toast: req.query.toast,
         });
     }
 

@@ -7,9 +7,10 @@ const logout = async () => {
   });
 
   if (response.ok) {
-    document.location.replace('/?toast=You are now logged out');
+    localStorage.setItem('toast', 'You are now logged out.');
+    document.location.replace('/');
   } else {
-    document.location.search = 'toast=Failed to log out.';
+    localStorage.setItem('toast', 'Failed to log out.');
   }
 };
 

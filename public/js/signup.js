@@ -17,9 +17,10 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
+      localStorage.setItem('toast', 'User created.');
       document.location.replace('/dashboard');
     } else {
-      document.location.search = 'toast=Failed to sign up.';
+      localStorage.setItem('toast', 'Failed to sign up.');
     }
   }
 };

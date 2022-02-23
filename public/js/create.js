@@ -17,9 +17,10 @@ const createFormHandler = async (event) => {
         });
 
         if (response.ok) {
+            localStorage.setItem('toast', 'Created article.');
             document.location.replace('/dashboard');
         } else {
-            alert('Failed to log in.');
+            localStorage.setItem('toast', 'Failed to create article.');
         }
     }
 };
