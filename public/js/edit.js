@@ -18,9 +18,11 @@ const editFormHandler = async (event) => {
         });
 
         if (response.ok) {
+            localStorage.setItem('toast', 'Updated article.');
             document.location.replace('/dashboard');
         } else {
-            alert('Failed to update the article.');
+            localStorage.setItem('toast', 'Failed to update article.');
+            toastIt(true);
         }
     }
 };
@@ -39,9 +41,11 @@ const deleteFormHandler = async (event) => {
         });
 
         if (response.ok) {
+            localStorage.setItem('toast', 'Deleted article.');
             document.location.replace('/dashboard');
         } else {
-            alert('Failed to delete the article.');
+            localStorage.setItem('toast', 'Failed to delete article.');
+            toastIt(true);
         }
     }
 };

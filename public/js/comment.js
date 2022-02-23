@@ -16,9 +16,11 @@ const commentFormHandler = async (event) => {
         });
 
         if (response.ok) {
-            document.location.search = '?toast=Added comment.';
+            localStorage.setItem('toast', 'Added comment.');
+            document.location.reload();
         } else {
-            document.location.search = '?toast=Failed to add comment.';
+            localStorage.setItem('toast', 'Failed to add comment.');
+            toastIt(true);
         }
     }
 };

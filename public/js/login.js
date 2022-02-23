@@ -17,9 +17,11 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
+      localStorage.setItem('toast', 'You are now logged in.');
       document.location.replace('/dashboard');
     } else {
-      document.location.search = 'toast=Failed to log in.';
+      localStorage.setItem('toast', 'Failed to log in.');
+      toastIt(true);
     }
   }
 };
