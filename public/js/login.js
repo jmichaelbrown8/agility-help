@@ -21,7 +21,7 @@ const loginFormHandler = async (event) => {
       document.location.replace('/dashboard');
     } else {
       localStorage.setItem('toast', 'Failed to log in.');
-      toastIt();
+      toastIt(true);
     }
   }
 };

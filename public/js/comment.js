@@ -20,7 +20,7 @@ const commentFormHandler = async (event) => {
             document.location.reload();
         } else {
             localStorage.setItem('toast', 'Failed to add comment.');
-            toastIt();
+            toastIt(true);
         }
     }
 };
